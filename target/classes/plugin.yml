@@ -1,0 +1,5 @@
+name: Compressor
+main: net.velinquish.compressor.Compressor
+version: 1.0.0-BETA
+author: Velinquish
+depend: [WorldGuard,CrackShot]

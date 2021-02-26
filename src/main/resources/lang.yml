@@ -1,0 +1,20 @@
+# You may turn any message here into something like this with hover/run/suggest effects on the text.
+# Each element of the list is another segment of the message with different effects.
+command-message:
+  - message: '&8&m===========&4&l Meteor &7Commands &8&m==========='
+  # If new-line is true, the next segment will appear on a new line. Otherwise, it'll be attached to the end of the last segment.
+  - new-line: true
+    message: '&c/meteor help&8: &7Displays this message'
+    hover: '&eClick to run'
+    run: '/meteor help'
+    
+command-compressor-usage: '%prefix%&2/compressor [set <item name>]'
+command-set-usage: '%prefix%&2/compressor set &f<item name>'
+    
+plugin-reloaded: '%prefix%Compressor has been successfully &2&nreloaded!'
+ore-set: '%prefix%The item in your hand has been registered as &2%ore%!'
+
+no-permission: '%prefix%You must have the permission &2&n%permission%&7 to execute this command.'
+next-page-no-permission: '&8(&c&l!&8) &7You have not unlocked these ores, yet.'
+not-a-player: '%prefix%You must be a player to run this command.'
+invalid-material: '%prefix%The item in your hand is invalid!'

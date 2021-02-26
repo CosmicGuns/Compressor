@@ -1,0 +1,26 @@
+# Compressor v.1.0.0-BETA
+# Created by Velinquish <3
+
+# What will appear in front of every message sent by the plugin
+plugin-prefix: '&a&lCompressor &8» &7'
+
+# Main command for Compressor
+main-command: 'compressor'
+# Plugin aliases - alternatives to COMMAND
+plugin-aliases:
+    - 'decompressor'
+    - 'compress'
+    - 'decompress'
+    - 'comp'
+    - 'decomp'
+    
+# Permission for configuring Meteors. The %action% placeholder will be replaced with the following valid actions:
+# - open
+# - set
+# - reload
+permission: 'compressor.%action%'
+
+# Enable debug mode
+debug: true
+# Do not touch this unless you know what you are doing!
+config-version: 1
